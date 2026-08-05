@@ -65,33 +65,33 @@ CloudWatch confirmed that Lambda processed the submitted order successfully.
 
 A test order with a status of `FAIL` deliberately triggered a Lambda error. After three unsuccessful processing attempts, SQS moved the message to the dead-letter queue.
 
-![Failed message in dead-letter queue](screenshots/dead-letter-queue-failed-message.png)
+![Failed message in dead-letter queue](dead-letter-queue-failed-message.png)
 
 ## Additional Screenshots
 
 ### API Gateway Resource
 
-![API Gateway orders resource](screenshots/api-gateway-orders-resource.png)
+![API Gateway orders resource](api-gateway-orders-resource.png)
 
 ### SNS-to-SQS Subscription
 
-![SNS SQS subscription](screenshots/sns-sqs-subscription.png)
+![SNS SQS subscription](sns-sqs-subscription.png)
 
 ### SQS Queues
 
-![Main and dead-letter queues](screenshots/sqs-main-and-dead-letter-queues.png)
+![Main and dead-letter queues](sqs-main-and-dead-letter-queues.png)
 
 ### Lambda Trigger Architecture
 
-![Lambda SQS trigger](screenshots/lambda-sqs-trigger-architecture.png)
+![Lambda SQS trigger](lambda-sqs-trigger-architecture.png)
 
 ### Lambda Code
 
-![Lambda processing code](screenshots/lambda-order-processing-code.png)
+![Lambda processing code](lambda-order-processing-code.png)
 
 ### Production API Stage
 
-![API Gateway production stage](screenshots/api-gateway-prod-stage.png)
+![API Gateway production stage](api-gateway-prod-stage.png)
 
 ## Skills Demonstrated
 
