@@ -53,13 +53,13 @@ flowchart LR
 
 The deployed API accepted an order request and returned an SNS `PublishResponse` with a unique message ID.
 
-![Successful API test](screenshots/deployed-api-cloudshell-test-success.png)
+![Successful API test](deployed-api-cloudshell-test-success.png)
 
 ## Successful Lambda Processing
 
 CloudWatch confirmed that Lambda processed the submitted order successfully.
 
-![CloudWatch successful order log](screenshots/cloudwatch-successful-order-log.png)
+![CloudWatch successful order log](cloudwatch-successful-order-log.png)
 
 ## Failure and Dead-Letter Queue Test
 
