@@ -91,7 +91,7 @@ A test order with a status of `FAIL` deliberately triggered a Lambda error. Afte
 
 ### Production API Stage
 
-![API Gateway production stage](api-gateway-prod-stage.png)
+![API Gateway production stage](api--gateway-prod-stage.png)
 
 ## Skills Demonstrated
 
